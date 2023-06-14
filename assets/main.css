@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: kanit;
+}
+
+h1{
+    font-weight: lighter;
+    padding: 0;
+    margin: 0;
+    font-size: 3rem;
+}
+
+p{
+    font-weight: lighter;
+    font-size: 1.25rem;
+}
+
+h2{
+    font-weight: lighter;
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+}
+
+span{
+    font-weight: lighter;
+    font-size: 2rem;
+}
+
+ul li{
+    font-weight: lighter;
+    font-size: 1.25rem;
+}
+
+img{
+    height: 20px;
+    width: 20px;
+    
+}
+
+footer{
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.head-container{
+    display: grid;
+    width: 90%;
+    margin: auto;
+    grid-template-columns: 2;
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
+}
+
+.name{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.contact{
+    font-size: 1rem;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    text-align: right;
+}
+
+#email, #phone{
+    font-size: 1.5rem;
+    
+}
+
+.body-container{
+    display: grid;
+    grid-template-columns: 6;
+    grid-template-rows: 6;
+    width: 90%;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.skills{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-right: 1px solid gray;
+    margin: 0;
+    padding: 0;
+}
+
+.work{
+    grid-column-start: 2;
+    grid-column-end: 7;
+}
+
+.awards{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 6;
+}
+
+.skills ul li{
+    padding: 5px 0;
+}
+
+ul{
+    margin: 15px;
+}
+
+.pro-exp, .work-exp{
+    padding: 20px;
+}
+
+.job-title{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.education{
+    border-right: 1px solid gray;
+    padding: 10px;
+}
+
